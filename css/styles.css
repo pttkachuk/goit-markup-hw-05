@@ -37,6 +37,7 @@ body {
 }
 .link {
   text-decoration: none;
+  transition: var(--anim-transition);
 }
 img {
   display: block;
@@ -133,7 +134,6 @@ p {
 .list .link:hover,
 .list .link:focus {
   color: var(--button-active-color);
-  transition: var(--anim-transition);
 }
 
 .address-contact {
@@ -143,6 +143,7 @@ p {
   line-height: 1.5;
   color: var(--text-color);
   text-decoration: none;
+  transition: var(--anim-transition);
 }
 .address-contact:hover,
 .address-contact:focus {
@@ -187,6 +188,7 @@ p {
 }
 .hero-button {
   display: block;
+  transition: var(--anim-transition);
 }
 
 .hero-button {
@@ -211,7 +213,6 @@ p {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--button-active-color);
-  transition: var(--anim-transition);
 }
 
 /* Advantages */
@@ -360,11 +361,11 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: var(--anim-transition);
 }
 .social-links:hover,
 .social-links:focus {
   background-color: var(--button-active-color);
-  transition: var(--anim-transition);
 }
 
 .social-icon {
@@ -402,6 +403,7 @@ p {
   align-items: center;
   justify-content: center;
   color: var(--main-logo-color);
+  transition: var(--anim-transition);
 }
 .customers-icon {
   fill: currentColor;
@@ -410,7 +412,6 @@ p {
 .customers-link:focus {
   color: var(--button-active-color);
   border: 1px solid var(--button-active-color);
-  transition: var(--anim-transition);
 }
 /* Footer */
 .footer {
@@ -483,11 +484,11 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: var(--anim-transition);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--success-color);
-  transition: var(--anim-transition);
 }
 .footer-social-icon {
   fill: var(--cloud-color);
@@ -514,6 +515,7 @@ p {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
+  transition: var(--anim-transition);
 }
 
 .filters-button:hover,
@@ -524,7 +526,6 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: 1px solid transparent;
-  transition: var(--anim-transition);
 }
 .filters-container {
   display: flex;
@@ -589,6 +590,7 @@ p {
 }
 .project-link {
   display: block;
+  transition: var(--anim-transition);
 }
 .project-list .item {
   width: calc((100% - 48px) / 3);
